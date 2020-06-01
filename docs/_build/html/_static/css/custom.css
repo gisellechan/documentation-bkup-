@@ -2,3 +2,8 @@ img[alt="pic"] {
   max-width:  600px; 
   display: block;
 }
+
+img[alt="level"] { 
+  max-width:  150px; 
+  display: block;
+}

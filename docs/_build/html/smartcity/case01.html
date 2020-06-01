@@ -92,7 +92,10 @@
 <li class="toctree-l2"><a class="reference internal" href="chapter5.html">7. Chapter 5: [Object to Object Communication] WI-FI Group communication</a></li>
 <li class="toctree-l2"><a class="reference internal" href="chapter6.html">8. Chapter 6: [Access Internet information] Connect your micro:bit to IoT Cloud by IFTTT</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">9. Case 01: Automated Smart Playground Lamp</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#introduction">9.1. Introduction</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#part-list">9.1. Part List:</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#description">9.2. Description:</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#coding">9.3. Coding:</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#hardware">9.4. Hardware:</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="case02.html">10. Case 02: Smart Car park Access Barrier</a></li>
@@ -175,8 +178,34 @@
             
   <div class="section" id="case-01-automated-smart-playground-lamp">
 <h1><span class="section-number">9. </span>Case 01: Automated Smart Playground Lamp<a class="headerlink" href="#case-01-automated-smart-playground-lamp" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="introduction">
-<h2><span class="section-number">9.1. </span>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h2>
+<p>Level: <img alt="level" src="../_images/level1.jpg" />
+<img alt="pic" src="../_images/Intro_01.jpg" /></p>
+<div class="section" id="part-list">
+<h2><span class="section-number">9.1. </span>Part List:<a class="headerlink" href="#part-list" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>LED Light X1</p></li>
+<li><p>Motion Sensor X1</p></li>
+<li><p>Connecting Wire X1</p></li>
+<li><p>micro:bit X1</p></li>
+<li><p>USB Cable X1</p></li>
+</ul>
+</div>
+<div class="section" id="description">
+<h2><span class="section-number">9.2. </span>Description:<a class="headerlink" href="#description" title="Permalink to this headline">¶</a></h2>
+<p>Motion sensor is used to detect if there are people moving in the playground, if there are, the LED light will be turned on; otherwise, it will be turned off.</p>
+</div>
+<div class="section" id="coding">
+<h2><span class="section-number">9.3. </span>Coding:<a class="headerlink" href="#coding" title="Permalink to this headline">¶</a></h2>
+<p>Motion sensor keep checking the value of the motion sensor, if there are people moving (motion sensor value &gt;=700), then the LED light will be turned on for 10 seconds.</p>
+</div>
+<div class="section" id="hardware">
+<h2><span class="section-number">9.4. </span>Hardware:<a class="headerlink" href="#hardware" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Connect Motion sensor to P0</p></li>
+<li><p>Connect LED light to P1</p></li>
+<li><p>Download the code and transfer to micro:bit</p></li>
+<li><p>Plug the micro:bit into WiFi IoT extension board</p></li>
+</ul>
 </div>
 </div>
 
