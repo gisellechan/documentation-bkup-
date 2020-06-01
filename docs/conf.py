@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Smarthon Smart City IoT Starter Kit'
+project = 'Smarthon Documentation'
 copyright = '2020, Smarthon Limited'
 author = 'Smarthon Limited'
 
